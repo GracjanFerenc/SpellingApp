@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Spelling App</string>
+
+    <string name="Word1">Shouted</string>
+    <string name="Word2">Painted</string>
+    <string name="Word3">Played</string>
+    <string name="Word4">Brushed</string>
+    <string name="Word5">Climbed</string>
+    <string name="hide">Hide</string>
+    <string name="submit">Submit</string>
+    <string name="set_text">Set Text</string>
+    <string name="enter_the_correct_spelling_here">Enter The Correct Spelling Here....</string>
+</resources>

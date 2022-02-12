@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    tools:context=".SettingSpellings">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editText1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="45dp"
+        android:gravity="center"
+        android:hint="Enter Text..."
+        android:inputType="textCapWords"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/editText2"
+        app:layout_constraintEnd_toEndOf="@+id/editText2"
+        app:layout_constraintStart_toStartOf="@+id/editText2"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Type here..." />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editText2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="41dp"
+        android:gravity="center"
+        android:hint="Enter Text..."
+        android:inputType="textCapWords"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/editText3"
+        app:layout_constraintEnd_toEndOf="@+id/editText3"
+        app:layout_constraintStart_toStartOf="@+id/editText3"
+        app:layout_constraintTop_toBottomOf="@+id/editText1"
+        tools:text="Type here..." />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editText3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="39dp"
+        android:gravity="center"
+        android:hint="Enter Text..."
+        android:inputType="textCapWords"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/editText4"
+        app:layout_constraintEnd_toEndOf="@+id/editText4"
+        app:layout_constraintStart_toStartOf="@+id/editText4"
+        app:layout_constraintTop_toBottomOf="@+id/editText2"
+        tools:text="Type here..." />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editText4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="41dp"
+        android:gravity="center"
+        android:hint="Enter Text..."
+        android:inputType="textCapWords"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/editText5"
+        app:layout_constraintEnd_toEndOf="@+id/editText5"
+        app:layout_constraintStart_toStartOf="@+id/editText5"
+        app:layout_constraintTop_toBottomOf="@+id/editText3"
+        tools:text="Type here..." />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editText5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="71dp"
+        android:gravity="center"
+        android:hint="Enter Text..."
+        android:inputType="textCapWords"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/submit_txt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText4"
+        tools:text="Type here..." />
+
+    <Button
+        android:id="@+id/submit_txt"
+        android:layout_width="249dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="63dp"
+        android:layout_marginBottom="72dp"
+        android:text="Submit"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
